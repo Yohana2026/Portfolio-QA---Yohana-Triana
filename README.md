@@ -1,6 +1,6 @@
-# Portfolio QA – Reyes Díaz  
+# Portfolio QA – Yohana Triana Aranzola  
 **Portafolio web personal de proyectos de QA**  
-🔗 [Ver Web Portfolio QA](https://bootcamp-qa.github.io/portfolioqa/)
+🔗 [Ver Web Portfolio QA](https://yohana2026.github.io/Portfolio-QA---Yohana-Triana/)
 
 ---
 
@@ -33,6 +33,6 @@ Para ejecutar los tests:
 ---
 
 ## 👩‍💻 Autor
-**Reyes Díaz – QA Junior**  
-[🔗 LinkedIn](https://www.linkedin.com/in/reyescuesta)
+**Yohana Triana Aranzola – QA Junior**  
+[🔗 LinkedIn](https://www.linkedin.com/in/yohanatriana)
 
