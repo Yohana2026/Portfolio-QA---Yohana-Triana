@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Reyes Cuesta QA" />
+  <meta name="author" content="Reyes Cuesta" />
+  <title>Reyes Cuesta - Portfolio</title>
+  <link href="style.css" rel="stylesheet" />
+  <!-- Importar Font Awesome para los iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+        <!-- Menú de navegación -->
+  <nav>
+      <ul>
+        <li><a id="menusobremi" href="#sobremi">Sobre mí</a></li>
+        <li><a id="menuproyectos" href="#proyectos">Proyectos</a></li>
+        <li><a id="menueducacion" href="#educacion">Educación</a></li>
+        <li><a id="menucontacto" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  <header>
+    <h1 id="nombre">Reyes Diaz</h1>
+    <p id="titulo">Junior QA</p>
+    <p>
+      <a id="linkgithub" href="https://github.com/Bootcamp-QA/portfolioqa" title="GitHub"
+        class="fa fa-github fa-2x" aria-label="GitHub"></a>
+      <a id="linklinkedin" href="https://www.linkedin.com/in/reyescuesta" title="LinkedIn"
+        class="fa fa-linkedin fa-2x" aria-label="LinkedIn"></a>
+    </p>
+  </header>
+  <main>
+    <section id="sobremi">
+      <h2 id="titulosobremi">
+        <i class="fa fa-user"></i> Sobre mi
+      </h2>
+      <p>
+        Soy QA Junior con formación en testing de software y metodologías
+        ágiles. He desarrollado pruebas manuales y automatizadas para
+        aplicaciones web, utilizando enfoques ágiles como Scrum. También he
+        realizado proyectos de pruebas de APIs con Postman, consultas en SQL y
+        programación web. Mi experiencia previa en el sector educativo me ha
+        permitido fortalecer habilidades prácticas como la organización, el
+        trabajo en equipo y la comunicación. Me considero una persona proactiva,
+        con muchas ganas de seguir aprendiendo y creciendo profesionalmente en
+        el ámbito del QA Testing.
+      </p>
+    </section>
+
+    <section id="proyectos">
+      <h2 id="tituloproyectos">
+        <i class="fa fa-folder-open"></i> Proyectos
+      </h2>
+
+      <h3>
+        <a id="linkproyectoportafolio" href="https://yourwebsite.com">Portfolio QA Web</a>
+        – QA Manual, Automatización y Desarrollo Web
+      </h3>
+      <p>
+        Desarrollé un portafolio web para mostrar proyectos de QA utilizando
+        <em>HTML5</em>, <em>CSS3</em>, <em>Visual Studio</em> y control de
+        versiones con <em>Git/GitHub</em>.
+      </p>
+      <p>
+        Diseñé y ejecuté pruebas de regresión manuales y automatizadas con
+        <em>Katalon Studio</em> (basado en <em>Selenium</em>), verificando la
+        funcionalidad del sitio.
+      </p>
+      <p>
+        Implementé un flujo de <strong>integración continua</strong> con
+        <em>GitHub Actions</em> para ejecutar automáticamente las pruebas de
+        regresión y generar reportes en cada cambio del repositorio.
+      </p>
+
+      <h3>
+        <a id="linkproyectoapi" href="https://yourwebsite.com" target="_blank">API de Usuarios</a>
+        – QA API Testing
+      </h3>
+      <p>
+        Diseñé una base de datos de usuarios y generé automáticamente una API
+        REST utilizando <em>SQLbase</em>, a partir de la estructura de la tabla.
+      </p>
+      <p>
+        Creé una colección de pruebas en <em>Postman</em> con validaciones
+        automáticas para casos positivos, negativos y autenticación, verificando
+        códigos de respuesta y contenido esperado.
+      </p>
+      <p>
+        Verifiqué con <em>SQL</em> que los datos se almacenaban y actualizaban
+        correctamente en la base de datos tras cada petición a la API.
+      </p>
+      <p>
+        Implementé un flujo de <strong>integración continua (CI)</strong> con
+        <em>GitHub Actions</em>, utilizando <em>Newman</em> para ejecutar las
+        pruebas automáticamente desde la colección de Postman y generar
+        reportes diarios en el repositorio.
+      </p>
+    </section>
+
+    <section id="educacion">
+      <h2 id="tituloeducacion">
+        <i class="fa fa-graduation-cap"></i> Educación
+      </h2>
+      <h3>Bootcamp QA Manual, API y Automatizado – Bootcamp QA</h3>
+      <p><strong>Septiembre 2025 – Diciembre 2025</strong></p>
+      <p>
+        <strong>QA & Testing:</strong> Principios y tipos de prueba (ISTQB),
+        diseño y ejecución de pruebas, reporte de errores, pruebas de API con
+        Postman, metodologías ágiles (SCRUM), BDD con Gherkin.
+      </p>
+      <p>
+        <strong>Automatización:</strong> Pruebas automatizadas con Postman
+        (Newman), Katalon (Selenium), Cypress + Cucumber, Playwright + Pytest,
+        integración continua con GitHub Actions.
+      </p>
+      <p>
+        <strong>Herramientas & Tecnología:</strong> SQL básico, HTML5, CSS3,
+        JavaScript, Python, Git, GitHub, GitHub Pages, Visual Studio Code, JIRA,
+        Confluence.
+      </p>
+
+      <h3>Master de Profesora – Universidad UNED</h3>
+      <p>Septiembre 2022 - Diciembre 2024</p>
+    </section>
+
+<section id="contacto">
+  <h2 id="titulocontacto">
+    <i class="fa fa-envelope"></i> Contacto
+  </h2>
+  <form id="contactForm" onsubmit="return enviarFormulario(event)">
+    <input id="nombre" type="text" placeholder="Nombre" />
+    <input id="email" type="email" placeholder="Email" />
+    <select id="asunto">
+      <option value="">---</option>
+      <option value="information">Información</option>
+      <option value="job">Oferta Trabajo</option>
+      <option value="other">Otro</option>
+    </select>
+    <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+    <button id="enviar" type="submit">
+      <i class="fa fa-paper-plane"></i> Enviar
+    </button>
+  </form>
+  <p id="formMessage"></p>
+</section>
+
+
+  <footer>
+    <p>&copy; All rights reserved.</p>
+  </footer>
+</body>
+<script src="script.js" defer></script>
+</html>

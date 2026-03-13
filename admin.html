@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Mensajes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Admin</h1>
+</header>
+
+<main>
+  <section id="admin">
+    <h2>Mensajes recibidos</h2>
+    <button id="verMensajes" onclick="verMensajes()">Ver mensajes</button>
+
+    <table id="formsTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Email</th>
+          <th>Asunto</th>
+          <th>Mensaje</th>
+          <th>Fecha de envío</th>
+        </tr>
+      </thead>
+      <tbody id="formsBody">
+        <!-- Se cargarán los registros aquí -->
+      </tbody>
+    </table>
+
+    <p id="status"></p>
+  </section>
+</main>
+
+<footer>
+    <p>&copy; All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
